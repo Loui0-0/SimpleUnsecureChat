@@ -1,0 +1,2 @@
+gcc -g -Wall -I include -o client src/client.c src/socketUtils.c src/chat.c src/packet.c src/debug.c src/renderer.c -lpthread 
+gcc -g -Wall -I include -o server src/server.c src/socketUtils.c src/chat.c src/packet.c src/debug.c -lpthread
